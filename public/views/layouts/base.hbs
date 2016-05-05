@@ -1,0 +1,22 @@
+<!doctype html>
+<head>
+    {{!-- Styling --}}
+
+    <link rel="stylesheet" href="/static/packages/bootstrap_image.css"/>
+    <link rel="stylesheet" href="/static/packages/foundation/foundation.css"/>
+    <link rel="stylesheet" href="/static/css/style.css"/>
+    
+    {{!-- JS Libraries --}}
+    <script src="/static/packages/jquery.js"></script>
+    <script src="/static/packages/foundation.js"></script>
+
+    <title>Abraham Cone</title>
+</head>
+
+<body>
+    {{> header this }}
+    <div class="body">
+    {{{ body }}}
+    </div>
+    {{!-- {{> footer this}} --}}
+</body>

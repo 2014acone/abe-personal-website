@@ -1,0 +1,191 @@
+/*carousel*/
+
+
+/*LAYOUT*/
+
+@font-face {
+	font-family: "raleway-medium";
+	src: url('static/.tff') format('truetype');
+}
+
+body {
+	padding-top:65px;
+	background-color: #FDF7EF;
+	color: #878580;
+	font-family: "raleway-medium", arial;
+}
+
+
+.thumb{
+	height:100px;
+	width: 100px;
+}
+
+#test {
+	background: url("/static/untitled1.jpg");
+	background-size: cover;
+	background-position: center center;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'raleway-medium';
+	font-size: 11vh;
+	border: 1px black;
+}
+
+h3 {
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+#aboutMe1, #aboutMe2, #aboutMe3{
+	text-align: left;
+}
+
+hr { 
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-top: 2px solid #878580;
+}
+
+#about hr{
+	margin-top: none;
+	margin-bottom: none;
+	border-top: 2px solid #878580;
+}
+
+
+#navbar {
+	padding-right: 35px;
+	background-color: #FDF7EF;
+}
+
+
+#aboutme {
+	text-align: center;
+	padding-top: 30%;
+	color: white;
+	font-size: 100px;
+}
+
+#quote_about{
+	font-size: 25px;
+}
+
+
+#inputMessage {
+	margin-bottom: 15px
+}
+
+@media (min-width: 768px){
+	#features1, #features2, #features3, #features{
+	text-align: center;
+	display: flex;
+  	align-items: center;
+	font-size: 20px;
+	line-height: 200%;
+	}
+	#pic1{
+		display: none;
+	}
+}
+
+@media (min-width: 992px) {
+	#features1, #features2, #features3, #features {
+	text-align: center;
+	display: flex;
+  	align-items: center;
+  	font-size: 20px;
+	line-height: 200%;
+	}
+	
+}
+
+
+@media (max-width: 768px) {
+	#pic2{
+		display: none;
+	}
+	
+}
+
+
+
+#features1, #features2, #features3, #features{
+	text-align: center;
+	font-size: 18px;
+	line-height: 150%;
+	margin-top: 20px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#features img{
+	margin-bottom: 20px;
+}
+
+#about{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+div.gallery img{
+	margin-bottom:15px;
+}
+.gallery{
+	text-align: center;
+	font-variant: small-caps;
+}
+
+#learnmore{
+	text-align: center;
+}
+
+#brand {
+	max-height: 20px;
+	padding: 0;
+	margin: 0;
+	border: 
+}
+
+#video{
+	margin-bottom: 100px;
+}
+
+footer{
+	background-color: #E3DED7;
+	margin-top: 200px;
+	margin-bottom 0px;
+}
+footer img{
+	width:30px;
+}
+footer a{
+	color: black;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 120px;
+  background-color: #FDF7EF ;
+}
+
+
+

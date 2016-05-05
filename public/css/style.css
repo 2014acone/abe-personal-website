@@ -1,0 +1,13 @@
+body {
+  font-family: 'Anevir Next', arial; }
+
+.top-bar-right {
+  text-align: right; }
+  .top-bar-right a {
+    margin-right: 20px; }
+
+.body {
+  padding: 25px; }
+
+.img-rounded {
+  border-radius: 50%; }
